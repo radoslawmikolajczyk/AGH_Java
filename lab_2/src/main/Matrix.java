@@ -230,27 +230,4 @@ public class Matrix {
 
         return result;
     }
-
-    //kartkówka grupa E
-    Matrix mean(int axis){
-        Matrix result;
-        double res [][] = new double[1][this.data.length/rows];
-        if (axis == 0){
-            for (int i = 0; i < this.rows; i++){
-                for (int j = 0; j < this.cols; j++){
-                    if (i == 0){
-                        res[0][i] += get(i+1,j+1)/get(this.rows,2);// wyjasnilem dlaczego uzywam w get i+1 powyzej w metodzie get i set
-                    }
-                }
-            }
-            for (int i = 1; i < this.rows -2;i++){
-                res[0][i] = get(i+1, i+1);
-            }
-            for (int i= 2; i<= this.rows;i++ ){
-                res[0][i] = get(i+1,i);
-            }
-        }
-        result = new Matrix(res);
-        return result;
-    }
 }
