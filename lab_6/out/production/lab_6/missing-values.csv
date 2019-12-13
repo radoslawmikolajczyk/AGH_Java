@@ -1,0 +1,13 @@
+id;parent;name;admin_level;population;area;density
+11670;11649;gmina Lanckorona;7;6165;40.4298;152.487
+11672;11670;Lanckorona;8;;11.7616;2
+10467;10465;Kolonia Wschodnia;11;;2.06667;2
+10468;10465;Kolonia Zachodnia;11;;1.96228;2
+10469;10464;Bódkowice;8;;5.99101;2
+14950;;województwo śląskie;4;4117006;12334;333.793
+10478;10464;Czajowice;8;;2.31632;2
+12276;12233;Potoka;8;;9.77958;2
+10471;10464;Biały Kozcic;8;;4.17683;2
+10472;10471;Murownia;11;;0.329605;2
+10473;10471;Skalska Droga;11;;0.125493;2
+10474;10471;Skotnica;11;;0.130149;2
